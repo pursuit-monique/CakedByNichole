@@ -15,7 +15,6 @@ import './index.css';
 function App() {
   return (
     <>
-    <div className="md:flex md:justify-center">
         <Routes>
           
             <Route element={<Index />} path="/" />
@@ -29,7 +28,6 @@ function App() {
 
 
         </Routes>
-    </div>
 
     </>
   )
