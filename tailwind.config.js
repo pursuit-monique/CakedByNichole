@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        dancingscript: ["Dancing Script", "serif"],
+        thasadith: ["Thasadith", "serif"],
+      },
+    },
   },
   plugins: [],
 };

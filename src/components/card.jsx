@@ -19,13 +19,13 @@ export default function Card({cakeData}) {
                 </Link>
             <div>
                 <div>
-                    <span className="text-sm italic text-yellow-600">{name}</span>
+                    <span className="text-sm italic text-yellow-600 font-thasadith font-black">{name}</span>
                 </div>
                 <div>
-                    <span className="text-pink-500"> {calculateRating(total, reviewsCount)} </span><span className="text-sm text-yellow-900 ms-1">{reviewsCount} reviews</span>
+                    <span className="text-pink-500"> {calculateRating(total, reviewsCount)} </span><span className="text-sm font-thasadith text-yellow-900 ms-1">{reviewsCount} reviews</span>
                 </div>
                 <div>
-                    <span className="text-xs text-yellow-700">${price.toFixed(2)}</span>
+                    <span className="text-xs text-yellow-700 font-thasadith">${price.toFixed(2)}</span>
                 </div>
             </div>
         </div>
