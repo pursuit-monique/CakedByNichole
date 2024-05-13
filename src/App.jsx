@@ -6,6 +6,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 
+import Header from './components/header';
+import Footer from './components/footer';
 
 import Index from './pages';
 import Detail from './pages/detail';
@@ -15,6 +17,7 @@ import './index.css';
 function App() {
   return (
     <>
+    <Header />
         <Routes>
           
             <Route element={<Index />} path="/" />
@@ -28,7 +31,7 @@ function App() {
 
 
         </Routes>
-
+          <Footer />
     </>
   )
 }
