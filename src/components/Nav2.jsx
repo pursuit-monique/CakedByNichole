@@ -5,8 +5,9 @@ import { Menu, X } from "lucide-react";
 const NavLinks = ({ isOpen, toggleNavbar }) => {
   return (
     <div className={`md:flex ${isOpen ? 'block' : 'hidden'}`}>
-      <NavLink to="/Shop" className="block md:inline-block mt-4 md:mt-0 mr-6  text-yellow-900 hover:text-pink-500">Shop</NavLink>
-      <NavLink to="/CustomCakes" className="block md:inline-block mt-4 md:mt-0 mr-6  text-yellow-900 hover:text-pink-500">Custom Cakes</NavLink>
+      <NavLink to="/Treats" className="block md:inline-block mt-4 md:mt-0 mr-6 text-yellow-900 hover:text-pink-500">Treats</NavLink>
+      <NavLink to="/About" className="block md:inline-block mt-4 md:mt-0 mr-6  text-yellow-900 hover:text-pink-500">About</NavLink>
+      <NavLink to="/Blog" className="block md:inline-block mt-4 md:mt-0  text-yellow-900 hover:text-pink-500">Blog</NavLink>
       <div className="md:hidden">
         <button onClick={toggleNavbar}>{isOpen ? <X /> : <Menu />}</button>
       </div>

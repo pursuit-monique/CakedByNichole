@@ -22,7 +22,7 @@ export default function Footer() {
                         <div className="w-full mt-6"> 
                             <span className="list-none font-thasadith text-yellow-700 text-sm">
                                 <ul className="mb-6">
-                                    <li>Flavour List</li>
+                                    <li>Flavor List</li>
                                     <li>Care Instructions</li>
                                     <li>Reviews</li>
                                     <li>Press</li>
