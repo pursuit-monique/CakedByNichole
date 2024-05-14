@@ -2,9 +2,8 @@
 
 const Logo = () => {
     return (
-        <div className="logo h-16 w-16">
-            <img src="/TurquoiseLogo.svg" alt="logo" />
-            
+        <div className="logo h-10 w-auto"> 
+            <img src='src/images/LogoNew.svg' alt="logo" />
         </div>
     );
 };
