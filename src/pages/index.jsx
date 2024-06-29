@@ -2,6 +2,8 @@
 import Card from "../components/card"
 import CardSkeleton from "../components/cardSkeleton"
 
+import FilterBar from "../components/filterBar"
+
 import Hero from "../components/hero"
 
 export default function Index(){
@@ -13,6 +15,9 @@ export default function Index(){
                 <section>
                     <Hero />
                 </section>
+                <div className="md:flex md:justify-center">
+                    <FilterBar />
+                </div>
                 <div className="md:flex md:justify-center">
                     {dummy_data.map(entry => <Card cakeData={entry} />)}
                 </div>
